@@ -1,0 +1,410 @@
+.inactive{
+    overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Indie Flower', cursive;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+.row{
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.signature{
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
+.leftSiteSide .fa{
+    font-size: 30px;
+}
+.rightSiteSide .fa{
+    font-size: 15px;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.rayhanSection{
+    position: relative;
+}
+.rayhanSection .rayhan{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+.rayhan h2{
+    font-size: 1.25rem;
+}
+.rayhan h3{
+    font-size: 0.75rem;
+}
+.rayhanSection .rayhan h2,
+.rayhanSection .rayhan h3{
+    color: white;
+}
+.row.personInfo{
+    padding-top: 20px;
+}
+.row.personInfo p{
+    margin-bottom: 0 !important;
+}
+.font14{
+    font-size: 14px;
+}
+.font22{
+    font-size: 24px;
+}
+.fontbig{
+    font-size: 40px;
+}
+.skillz .fa{
+    font-size: 16px!important;
+}
+.skill{
+    position: relative;
+    height: 5px;
+    border-radius: 3px;
+    background: #ccc !important;
+}
+.skill .achieviment{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    width: 0%;
+    height: 5px;
+    border-radius: 3px;
+    transition: 1s linear;
+}
+.skill .achieviment span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    right: -7px;
+    top: -4.5px;
+}
+.positionR{
+    position: relative;
+}
+.toggle-menu{
+    cursor: pointer;
+    padding: 7px 5px;
+    border: 2px solid black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.9);
+}
+.toggle-menu span{
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+}
+.toggle-menu span:last-of-type{
+    margin-bottom: 0;
+}
+.menu-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 15;
+    display: none;
+}
+.menu{
+    position: fixed;
+    left: -120%;
+    top: 0;
+    z-index: 20;
+    transition: 0.3s ease;
+}
+.menu.active{
+    left: 0px;
+}
+.menu .side-menu{
+    height: 100vh;
+    min-width: 300px;
+
+}
+
+.menu .side-menu a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 2px 0;
+    padding-left: 5px;
+    border-left: 2px solid transparent;
+    transition: 0.4s linear;
+}
+.menu .side-menu a:hover{
+    border-left: 2px solid white;
+}
+.menu .side-menu{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------- RIGHT SITE SIDE -----------*/
+.rightSiteSide,
+.gallery{
+    margin: 10px 5px 10px;
+}
+.interests .fa{
+    font-size: 20px !important;
+    transition: 0.5s linear;
+}
+.interests .fa:hover{
+    transform: rotateX(360deg);
+}
+.redtext{
+    color: #961313 !important;
+}
+.borderbottomlink{
+    transition: 1s ease;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+}
+.borderbottomlink:hover{
+    border-bottom: 1px solid #961313;
+}
+.boxshadow:hover{
+    box-shadow: 0 0 5px #961313;
+}
+.boxshadow{
+    transition: 1s ease;
+}
+.insetsb{
+    transition: 1s ease;
+}
+.insetsb:hover{
+    box-shadow: 0 0 5px #fff inset;
+}
+
+
+.masonery{
+    position: relative;
+}
+.figurenomargin{
+    margin-bottom: 0px!important;
+}
+img.width100{
+}
+.maxheightfigure{
+    height: 100%!important;
+}
+.overflowhidden{
+    overflow: hidden;
+}
+
+
+/* ------------ MAP ------------ */
+#map_wrapper {
+    height: 400px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* R----------- RESPONSIVE ---------- */
+.h2respo{
+    font-size: 1.5rem;
+}
+.h3respo{
+    font-size: 1.1rem;
+}
+.textrespo{
+    font-size: 0.6rem;
+}
+.pnomargin{
+    margin-bottom: 0!important;
+}
+
+
+/* FORM CONTACT */
+.form-contact input,
+.form-contact textarea{
+    border-bottom: 2px solid #961313!important;
+    border-left: 2px solid #961313!important;
+    border-top: 2px solid transparent!important;
+    border-right: 2px solid transparent!important;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.form-contact input:focus,
+.form-contact textarea:focus{
+    border: 2px solid #961313!important;
+}
+.form-contact .btn{
+    cursor: pointer;
+}
+
+/* BUTTON HOVER*/
+.hvr-shutter-in-vertical{
+    color: #961313;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.mh215{
+    max-height: 215px;
+}
+img.mh255{
+    max-height: 255px;
+}
+
+
+/* PORTFOLIO LINKED TEXT */
+.linkedtext h2{
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: 0.6s ease;
+}
+.linkedtext:hover h2{
+    color: white;
+    border-bottom: 1px solid white!important;
+}
+
+
+
+
+
+
+/* ------------------ GALLERY --------------------*/
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImgHover{
+    position: relative;
+    display: block;
+}
+.myImg:hover {
+    opacity: 0.7;
+}
+.myImgHover .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    background: rgba(134,13,13,0.9);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+}
+.myImgHover .overlay h2{
+    font-size: 18px!important;
+    color: white;
+}
+.myImgHover .overlay p{
+    font-size: 12px!important;
+    color: white;
+}
+.myImgHover:hover .overlay{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* GRADIENT BACKGROUND*/
+.bg-gradient{
+    background: linear-gradient(125deg, #001485, #8a006d, #ff0000);
+    background-size: 600% 600%;
+
+    -webkit-animation: LinearGradientBackground 41s ease infinite;
+    -moz-animation: LinearGradientBackground 41s ease infinite;
+    -o-animation: LinearGradientBackground 41s ease infinite;
+    animation: LinearGradientBackground 41s ease infinite;
+}
+.bg-gradient2{
+    background: linear-gradient(139deg, #670000, #900000, #b70000, #ec0000);
+    background-size: 800% 800%;
+
+    -webkit-animation: LinearGradientBackground 15s ease infinite;
+    -moz-animation: LinearGradientBackground 15s ease infinite;
+    -o-animation: LinearGradientBackground 15s ease infinite;
+    animation: LinearGradientBackground 15s ease infinite;
+}
+.bg-gradient3{
+    background: linear-gradient(125deg, #1100ff, #ff00df, #ff0000);
+    background-size: 600% 600%;
+
+    -webkit-animation: LinearGradientBackground 27s ease infinite;
+    -moz-animation: LinearGradientBackground 27s ease infinite;
+    -o-animation: LinearGradientBackground 27s ease infinite;
+    animation: LinearGradientBackground 27s ease infinite;
+}
+
+
+/* BACKGROUND ANIMATIONs */
+@-webkit-keyframes LinearGradientBackground {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes LinearGradientBackground {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-o-keyframes LinearGradientBackground {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes LinearGradientBackground {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+
